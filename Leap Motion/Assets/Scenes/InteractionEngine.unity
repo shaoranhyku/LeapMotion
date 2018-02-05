@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 344868338}
   - component: {fileID: 344868342}
   - component: {fileID: 344868343}
+  - component: {fileID: 344868344}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -244,6 +245,23 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &344868344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 344868337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3114344ba6745174fbef5bd843ae200e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useHover: 0
+  usePrimaryHover: 1
+  defaultColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  hoverColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  primaryHoverColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  smoothColor: 5
 --- !u!1 &454439354
 GameObject:
   m_ObjectHideFlags: 0
