@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/InteractionEngine.unity
+- path: Assets/Scenes/InterfaceScene.unity
   isLoaded: 1
   isActive: 1
